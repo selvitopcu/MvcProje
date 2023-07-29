@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<body>
+    <div class="total-content">
+        <div class="list_of_members">
+            <div class="sales" style="background-color:#1abc9c">
+                <div class="icon-text">
+                    <h3>@ViewBag.toplamkat</h3>
+                    <p>Toplam Kategori Sayısı</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="new-users" style="background-color:#2ecc71">
+
+                <div class="icon-text">
+                    <h3>@ViewBag.yazilimbaslik</h3>
+                    <p>"Yazılım Kategorisine Ait Başlık Sayısı"</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="orders" style="background-color:#3498db">
+
+                <div class="icon-text">
+                    <h3>@ViewBag.yazarad</h3>
+                    <p>Adında "a" Olan Yazarlar</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="visitors" style="background-color:#9b59b6">
+
+                <div class="icon-text">
+                    <h3>@ViewBag.kategorisay</h3>
+                    <p>En Fazla Başlığı Olan Kategori Adı</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="visitors" style="background-color:#9b59b6">
+
+                <div class="icon-text">
+                    <h3>@ViewBag.katdurumfark</h3>
+                    <p>Kategori Tablosunda Durumu True Olan Kategoriler ile False Olan Kategoriler Arasındaki Fark</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+
+
+</body>
